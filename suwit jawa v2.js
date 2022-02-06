@@ -135,9 +135,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
 /* Suwit Jawa 2.0 */
-
 body {
   background-image: url(img/bg.png);
   font-family: arial;
@@ -154,14 +152,12 @@ h1 {
     2.3334523779px 2.3334523779px 0 #aaaaaa, 3.1112698372px 3.1112698372px 0 #aaaaaa, 3.8890872965px 3.8890872965px 0 #aaaaaa, 4.6669047558px 4.6669047558px 0 #aaaaaa, 5.4447222151px 5.4447222151px 0 #aaaaaa,
     6.2225396744px 6.2225396744px 0 #aaaaaa, 7.0003571337px 7.0003571337px 0 #aaaaaa, 7.7781745931px 7.7781745931px 0 #aaaaaa;
 }
-
 .container {
   width: 600px;
   margin: auto;
   padding: 20px;
   position: relative;
 }
-
 .area-komputer {
   width: 560px;
   height: 250px;
@@ -174,7 +170,6 @@ h1 {
   border-radius: 40px 40px 0 0;
   position: relative;
 }
-
 .area-komputer .poin-komputer {
   position: absolute;
   width: 100px;
@@ -187,7 +182,6 @@ h1 {
   display: grid;
   place-items: center;
 }
-
 .area-player {
   width: 560px;
   height: 250px;
@@ -197,7 +191,6 @@ h1 {
   position: relative;
   border-radius: 0 0 40px 40px;
 }
-
 .area-player .poin-player {
   position: absolute;
   width: 100px;
@@ -210,7 +203,6 @@ h1 {
   display: grid;
   place-items: center;
 }
-
 .info {
   width: 150px;
   height: 60px;
@@ -229,17 +221,14 @@ h1 {
   font-size: 26px;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
-
 ul {
   padding-top: 80px;
   padding-left: 25px;
 }
-
 li {
   display: inline-block;
   margin: 0 18px;
 }
-
 img {
   width: 130px;
   height: 130px;
@@ -247,7 +236,6 @@ img {
   margin: auto;
   border-radius: 50%;
 }
-
 .gajah,
 .orang,
 .semut {
@@ -256,14 +244,12 @@ img {
   top: 0;
   cursor: pointer;
 }
-
 .gajah:hover,
 .semut:hover,
 .orang:hover,
 .active {
   box-shadow: 0 0 10px 5px limegreen;
 }
-
 .gajah:active,
 .semut:active,
 .orang:active {
@@ -274,7 +260,6 @@ img {
   </head>
   <body>
     <h1>Suwit Jawa v2.0</h1>
-
     <div class="container">
       <div class="area-komputer">
         <img src="img/gajah.png" class="img-komputer" />
@@ -353,9 +338,11 @@ pilihanGambar.forEach(function (pil) {
         poinComp.innerHTML = iComp;
         poinPlay.innerHTML = iPlay;
       } else if (hasil == "MENANG!") {
-        poinPlay.innerHTML = iPlay++;
+        iPlay++;
+        poinPlay.innerHTML = iPlay;
       } else {
-        poinComp.innerHTML = iComp++;
+        iComp++;
+        poinComp.innerHTML = iComp;
       }
     }, 1000);
   });
@@ -371,7 +358,7 @@ pilihanGambar.forEach(function (pil) {
 //   const gComp = document.querySelector(".img-komputer");
 //   gComp.setAttribute("src", "img/" + pComp + ".png");
 // });
-
+  
     </script>
   </body>
 </html>
