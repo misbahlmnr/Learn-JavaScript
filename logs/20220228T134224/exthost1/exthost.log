@@ -1,0 +1,27 @@
+[2022-02-28 13:42:29.521] [exthost] [info] Extension host with pid 5146 started
+[2022-02-28 13:42:29.521] [exthost] [info] Skipping acquiring lock for /home/smileeveryday/Javascript/User/workspaceStorage/8405b14d0a62ee54952d5fb127b232db.
+[2022-02-28 13:42:29.664] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2022-02-28 13:42:29.765] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-02-28 13:42:29.773] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-02-28 13:42:29.859] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-02-28 13:42:29.895] [exthost] [info] Eager extensions activated
+[2022-02-28 13:42:29.900] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-02-28 13:42:29.931] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-02-28 13:42:29.944] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2022-02-28 13:42:31.923] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+[2022-02-28 13:42:32.391] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 520
+[2022-02-28 13:42:39.643] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+[2022-02-28 13:42:39.697] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+[2022-02-28 13:42:39.829] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+[2022-02-28 13:42:40.057] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+[2022-02-28 13:42:53.014] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-02-28 13:42:53.149] [exthost] [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onLanguage:html'
+[2022-02-28 13:42:55.651] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2022-02-28 13:45:26.075] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 859
+[2022-02-28 13:47:02.785] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 862
+[2022-02-28 13:48:09.314] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 862
+[2022-02-28 13:48:42.265] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 862
+[2022-02-28 13:49:44.539] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 862
+[2022-02-28 14:09:33.713] [exthost] [warning] [Decorations] CAPPING events from decorations provider vscode.git 862
+[2022-02-28 14:09:36.201] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-02-28 14:09:36.306] [exthost] [info] Extension host with pid 5146 exiting with code 0

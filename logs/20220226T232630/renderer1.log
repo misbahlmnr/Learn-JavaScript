@@ -1,4 +1,0 @@
-[2022-02-26 23:26:34.430] [renderer1] [info] IExtensionHostStarter.start() took 119 ms.
-[2022-02-26 23:26:35.854] [renderer1] [error] [Extension Host] (node:3204) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
-(Use `code --trace-deprecation ...` to show where the warning was created)
-[2022-02-27 00:20:31.291] [renderer1] [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

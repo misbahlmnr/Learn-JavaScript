@@ -1,9 +1,0 @@
-[2022-02-26 23:26:30.751] [main] [info] update#setState idle
-[2022-02-26 23:26:30.825] [main] [info] ExtensionHostStarterWorker created
-[2022-02-26 23:26:34.359] [main] [info] Starting extension host with pid 3204 (fork() took 45 ms).
-[2022-02-26 23:26:34.360] [main] [info] ExtensionHostStarterWorker.start() took 53 ms.
-[2022-02-26 23:26:35.749] [main] [warning] Switching to using in-memory credential store instead because Keytar failed to load: Unknown or unsupported transport “disabled” for address “disabled:”
-[2022-02-26 23:27:00.758] [main] [info] update#setState checking for updates
-[2022-02-26 23:27:00.802] [main] [info] update#setState idle
-[2022-02-27 00:20:31.746] [main] [error] [storage state.vscdb] prepare(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database (INSERT INTO ItemTable VALUES (?,?)). Details: Keys: workbench.explorer.views.state Length: 306
-[2022-02-27 00:20:37.213] [main] [error] [storage state.vscdb] prepare(): Error: SQLITE_READONLY_DBMOVED: attempt to write a readonly database (INSERT INTO ItemTable VALUES (?,?)). Details: Keys: memento/workbench.parts.editor Length: 974
