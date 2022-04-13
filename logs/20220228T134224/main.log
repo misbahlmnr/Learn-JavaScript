@@ -1,9 +1,0 @@
-[2022-02-28 13:42:24.746] [main] [info] update#setState idle
-[2022-02-28 13:42:24.821] [main] [info] ExtensionHostStarterWorker created
-[2022-02-28 13:42:28.084] [main] [info] Starting extension host with pid 5146 (fork() took 23 ms).
-[2022-02-28 13:42:28.086] [main] [info] ExtensionHostStarterWorker.start() took 32 ms.
-[2022-02-28 13:42:28.879] [main] [warning] Switching to using in-memory credential store instead because Keytar failed to load: Unknown or unsupported transport “disabled” for address “disabled:”
-[2022-02-28 13:42:54.748] [main] [info] update#setState checking for updates
-[2022-02-28 13:42:57.370] [main] [info] update#setState idle
-[2022-02-28 14:09:36.243] [main] [info] Waiting for extension host with pid 5146 to exit.
-[2022-02-28 14:09:36.339] [main] [info] Extension host with pid 5146 exited with code: 0, signal: null.
