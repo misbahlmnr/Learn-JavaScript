@@ -9,7 +9,7 @@ Repo ini berisi tentang beberapa codingan javascript awal yang mungkin bisa berm
 
 3.  scrollIntoView(); --> untuk menyekrol ke tujuan
 
-4.  DOM Selection\n
+4.  DOM Selection
     getElementById() -> hasil = element
     getElementsByTagName() -> html colection
     getElementsByClassName() -> htmlcollection
