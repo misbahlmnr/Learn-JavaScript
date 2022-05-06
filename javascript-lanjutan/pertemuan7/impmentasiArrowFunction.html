@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Implementasi Arrow Function di Dunia Nyata</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html {
+            margin: 150px auto;
+        }
+        .kotak {
+            margin: 50px auto;
+        }
+        .kotak {
+            height: 100px;
+            width: 100px;
+            border: 1px solid #000;
+            transition: .3s width,
+                        .3s height .3s,
+                        .3s margin-top .3s,
+                        .2s background-color;
+            transition: all .3s;
+        }
+        .size {
+            height: 150px;
+            width: 150px;
+            margin-top: 25px;
+        }
+        .color {
+            background-color: salmon;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="kotak"></div>
+    
+    <script>
+        const box = document.querySelector('.kotak');
+        box.addEventListener('click', function() {
+            this.classList.toggle('size');
+            setTimeout(() => {
+                this.classList.toggle('color')
+            }, 600);
+        })
+    </script>
+    
+</body>
+</html>
