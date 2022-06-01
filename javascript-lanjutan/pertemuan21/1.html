@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* Style the buttons */
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+ul {
+  display: flex;
+
+}
+li {
+  list-style: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.active, .btn:hover {
+  background-color: rgb(242, 55, 55);
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<h1>Active Button</h1>
+<p>Highlight the active/current (pressed) button.</p>
+  
+<ul>
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+  <li>4</li>
+  <li>5</li>
+</ul>
+
+<script>
+
+const list = document.querySelectorAll('li');
+list.forEach(lis => {
+  lis.addEventListener('click', function() {
+    list.forEach(lis => {lis.classList.remove('active')});
+    lis.classList.add('active');
+  })
+})
+
+
+</script>
+
+</body>
+</html>
