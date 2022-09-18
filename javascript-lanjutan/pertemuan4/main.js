@@ -39,3 +39,5 @@
 x = 10;
 var x;
 console.log(x)
+
+// untuk lebih memahami tentang excecution contex dan hoisting, anda bisa mengunjungi website javascript visualizazer
