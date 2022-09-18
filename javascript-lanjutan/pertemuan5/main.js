@@ -12,3 +12,8 @@ function closure() {
     tampilNama()
 }
 closure();
+
+
+// alasan menggunakan closure?
+// 1. untuk membuat function factory
+// 2. untuk membuat private method
