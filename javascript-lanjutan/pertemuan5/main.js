@@ -83,3 +83,16 @@ console.log(a()); // 2
 console.log(a()); // 3
 
 // sekarang sukses, karena counter yang di acu adalah di function parent nya :)
+
+// tips dan cara agar kita tidak perlu mendefinisikan dulu function add ke variable a, atau cara agar function di jalankan penuh, kita bisa 
+// membungkusnya dengan imadietli infoc function
+let counter = 0;
+let add = (function() {
+    return function() {
+       return ++counter;
+    }
+})();
+
+console.log(add()); // 1
+console.log(add()); // 2
+console.log(add()); // 3
