@@ -103,3 +103,23 @@ Details.prototype.info = function () {
 }
 
 let misbah = new Details('misbah', 'programer', 19);
+
+
+const Dosen = {
+    nama: 'Misbah',
+    umur: 20,
+    email: 'misbahx.id@gmail.com',
+    mengajar: {
+        kampus1: 'Sekolah Tinggi Teknologi Bandung',
+        kampus2: 'Stimik',
+        kampus3: {
+            hehe: 'tulus'
+        }
+    }
+}
+
+function cetakDosen({nama, umur, mengajar: {kampus1, kampus2, kampus3: {hehe}}}) {
+    return `Halo, nama saya ${nama}, saya berumur ${umur} tahun.`;
+}
+
+console.log(cetakDosen(Dosen));
