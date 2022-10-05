@@ -71,3 +71,5 @@ if (4 > '3') // true
 if ('1' < 3) // true
 alasannya karena akan mengkonversi data sebelum dibandingkan
 
+.hasOwnProperty // merupakan fungsi object untuk mencari apakah didalam sebuah object terdapat properti tertentu
+
