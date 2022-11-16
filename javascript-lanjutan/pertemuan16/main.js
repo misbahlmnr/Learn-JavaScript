@@ -88,4 +88,42 @@
 
 // let a = "misbah hulmunir";
 // let [namadepan, namabelakang] = a.split(' ');
+<<<<<<< HEAD
 // console.log(namabelakang)
+=======
+// console.log(namabelakang)
+
+
+
+let Details = function(nama, jabatan, umur) {
+    this.nama = nama;
+    this.jabatan = jabatan;
+    this.umur = umur;
+}
+
+Details.prototype.info = function () {
+    return `hai`;
+}
+
+let misbah = new Details('misbah', 'programer', 19);
+
+
+const Dosen = {
+    nama: 'Misbah',
+    umur: 20,
+    email: 'misbahx.id@gmail.com',
+    mengajar: {
+        kampus1: 'Sekolah Tinggi Teknologi Bandung',
+        kampus2: 'Stimik',
+        kampus3: {
+            hehe: 'tulus'
+        }
+    }
+}
+
+function cetakDosen({nama, umur, mengajar: {kampus1, kampus2, kampus3: {hehe}}}) {
+    return `Halo, nama saya ${nama}, saya berumur ${umur} tahun.`;
+}
+
+console.log(cetakDosen(Dosen));
+>>>>>>> defd95ebaf9b17d8670d7a8816a745998cc9e2ba

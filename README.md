@@ -65,4 +65,11 @@ Repo ini berisi tentang beberapa codingan javascript awal yang mungkin bisa berm
 
 11. Event Bubbling Method
     ObjectEvent.stopPropagation()
+    
+operator perbandingan
+if (4 > '3') // true
+if ('1' < 3) // true
+alasannya karena akan mengkonversi data sebelum dibandingkan
+
+.hasOwnProperty // merupakan fungsi object untuk mencari apakah didalam sebuah object terdapat properti tertentu
 

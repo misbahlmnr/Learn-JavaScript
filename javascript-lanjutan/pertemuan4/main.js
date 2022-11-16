@@ -39,3 +39,25 @@
 x = 10;
 var x;
 console.log(x)
+
+// untuk lebih memahami tentang excecution contex dan hoisting, anda bisa mengunjungi website javascript visualizazer
+
+// point utama dalam materi ini
+// yang pertama cek terlebih dahulu ada variable dan function nggak, kalo ada langsung hoisting, jika sudah baru tahap excecution
+
+
+
+function satu() {
+  var nama = 'Misbah';
+  console.log(nama);
+}
+
+function dua() {
+  console.log(nama);
+}
+
+console.log(nama);
+var nama = 'Abang';
+satu();
+dua('Dian');
+console.log(nama);
