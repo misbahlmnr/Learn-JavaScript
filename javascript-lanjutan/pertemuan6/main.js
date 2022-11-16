@@ -27,15 +27,14 @@
 // // selamatMalam('munir')
 // console.dir(selamatMalam)
 
-
 // pada saat di assegment ke variable add, inner functionnya otomatis di jalankan
-let add = (function () {
-    let counter = 0;
-    return function(){
-        return ++counter;
-    }
-})();
+// let add = (function () {
+//     let counter = 0;
+//     return function(){
+//         return ++counter;
+//     }
+// })();
 
-console.log(add());
-console.log(add());
-console.log(add());
+// console.log(add());
+// console.log(add());
+// console.log(add());

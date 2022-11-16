@@ -1,4 +1,5 @@
 // tagged template merupakan bentuk yang lebih kompleks dari template literals, memungkinkan kita untuk membaca template literals melalui sebuah function
+
 // tagged templates biasa digunakan untuk
 // 1. Escaping HTML Tags
 // 2. Translation & Internazionation
@@ -12,16 +13,15 @@
 // function validasi(string, ...values) {
 //     if (values.includes('hacked')) {
 //         return `Website telah diretas`;
-//     } 
+//     }
 //     return `Website mu aman dari hacker`;
 // }
-
 
 // let string = validasi`${prompt('masukan tulisanmu : ')}`;
 // console.log(string);
 
-
 // contoh tagged template html escaping tag
+
 // function sanitaze(string, ...values) {
 //     return DOMpurify.sanitaze(about);
 // }
@@ -36,15 +36,21 @@
 
 // document.body.innerHTML = forHtml;
 
-
-
 // contoh tagged template translation & internazionalition
+
 // const html = i18n`Hai, my name is ${name}, i have ${amount} in my account bank`;
 // hai, nama saya misbah, aku punya uang di aku bank saya.
 
-
 // styled component
+
 // const styled = styled.h1`
 //     font-size: 1.5rem;
 //     text-align: center;
 // `;
+
+// function tes(str, ...arr) {
+//   console.log(arr);
+// }
+
+// const nama = `misbah`;
+// const str = tes`hai nama saya ${nama} !`;

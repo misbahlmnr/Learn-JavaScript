@@ -1,3 +1,8 @@
+// error handling
+// ada 2 error handling
+// 1. .then() and .catch()
+// 2. try and catch()
+
 const select = (el, all=false) => {
     el = el.trim()
     if (all) {

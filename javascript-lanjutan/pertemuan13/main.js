@@ -1,3 +1,4 @@
+// template literal
 // const mahasiswa = {
 //     nama: "misbah",
 //     umur: 20,
@@ -44,16 +45,16 @@
 // 3. conditional
 // ternary
 
-const lagu = {
-    judul: 'tetap dalam jiwa',
-    penyanyi: 'misbah'
-}
+// const lagu = {
+//     judul: 'tetap dalam jiwa',
+//     penyanyi: 'misbah'
+// }
 
-const elemenFragmen = `<div class="lagu">
-    <ul>
-        <li>${lagu.judul}</li>
-        <li>${lagu.penyanyi}</li>
-    </ul>
-</div>`;
+// const elemenFragmen = `<div class="lagu">
+//     <ul>
+//         <li>${lagu.judul}</li>
+//         <li>${lagu.penyanyi}</li>
+//     </ul>
+// </div>`;
 
-document.body.innerHTML = elemenFragmen;
+// document.body.innerHTML = elemenFragmen;

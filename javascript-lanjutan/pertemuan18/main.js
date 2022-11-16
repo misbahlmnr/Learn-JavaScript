@@ -17,7 +17,6 @@
 
 
 // sebelumnya untuk melakukan hal yang sama ada method di dalam array yang berfungsi untuk menggabungkan 2 / lebih array
-
 // console.log(cikembang.concat(cirandagelis));
 
 // tpi ini kurang fleksible, 
@@ -52,21 +51,28 @@
 // juga tidak terganti
 
 
-// latihan
-const select = (el, all=false) => {
-    el = el.trim();
-    if (all) {
-        return [...document.querySelectorAll(el)];
-    } else {
-        return document.querySelector(el);
-    }
-}
-const nama = select('.nama', false)
+const Listmhs = document.querySelectorAll('li');
 
-const nama2 = [...nama.textContent].map(n => `<span>${n}</span>`).join('');
+// const mhs = [];
+// for(m of Listmhs) {
+//     mhs.push(m.textContent);
+// }
+// console.log(mhs);
 
-nama.innerHTML = nama2;
+// const mhs = [];
+// for(let i = 0; i < Listmhs.length; i++) {
+//     mhs.push(Listmhs[i].textContent)
+// }
+// console.log(mhs)
 
+// const mhs = [...Listmhs].map(m => m.textContent);
+// console.log(mhs)
+
+
+const nama = document.querySelector('.nama');
+
+const huruf = [...nama.textContent].map(h => `<span>${h}</span>`).join('');
+nama.innerHTML = huruf;
 
 
 

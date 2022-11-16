@@ -29,18 +29,18 @@
 
 
 
-function cobaPromise() {
-    return new Promise((resolve, reject) => {
-        let waktu = 5000;
-        if ( waktu < 5000) {
-            setTimeout(() => {
-                resolve('sip jalan')
-            }, waktu)
-        } else {
-            reject('kelamaan');
-        }
-    })
-}
+// function cobaPromise() {
+//     return new Promise((resolve, reject) => {
+//         let waktu = 5000;
+//         if ( waktu < 5000) {
+//             setTimeout(() => {
+//                 resolve('sip jalan')
+//             }, waktu)
+//         } else {
+//             reject('kelamaan');
+//         }
+//     })
+// }
 
 // tes
 //     .then(coba => console.log(coba))
@@ -50,16 +50,52 @@ function cobaPromise() {
 // let data = cobaPromise();
 // console.log(data)
 
-coba()
+// coba()
 
 // jika ingin menampilkan error dengan tidak menggunakan then() dan catch()
-async function coba() {
+// async function coba() {
+//     try {
+//         let data = await cobaPromise()
+//         console.log(data)
+//     } catch(e) {
+//         console.log(e)
+//     }
+// }
+
+
+// function getData() {
+//     return new Promise(resolve => {
+//         setTimeout(() => {
+//             resolve('selesai');
+//         }, 2000)
+//     });
+// }
+
+// console.log(janji.then(() => console.log(janji)))
+
+function getData() {
+    return new Promise((resolve, reject) => {
+        let waktu = 3000;
+        if (waktu < 5000) {
+            setTimeout(() => {
+                resolve('selesai');
+            }, waktu);
+        } else {
+            reject('kelamaan');
+        }
+    });
+}
+
+cobaAsync();
+
+async function cobaAsync() {
     try {
-        let data = await cobaPromise()
-        console.log(data)
+        let data = await getData();
+        console.log(data);
     } catch(e) {
-        console.log(e)
+        console.error(e);
     }
 }
+
 
 

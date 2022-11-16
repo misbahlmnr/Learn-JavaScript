@@ -42,16 +42,16 @@
 // console.log(kali);
 
 // Destructering function argument
-const mhs1 = {
-    nama: 'misbah', 
-    umur: 19,
-    email: 'misbahx.id@gmail.com',
-    nilai: {
-        tugas: 80,
-        uts: 80,
-        uas: 75
-    }
-}
+// const mhs1 = {
+//     nama: 'misbah', 
+//     umur: 19,
+//     email: 'misbahx.id@gmail.com',
+//     nilai: {
+//         tugas: 80,
+//         uts: 80,
+//         uas: 75
+//     }
+// }
 // sebelum menggunakan destructering
 
 // kita bisa pecah di parameter awal
@@ -89,17 +89,3 @@ const mhs1 = {
 // let a = "misbah hulmunir";
 // let [namadepan, namabelakang] = a.split(' ');
 // console.log(namabelakang)
-
-
-
-let Details = function(nama, jabatan, umur) {
-    this.nama = nama;
-    this.jabatan = jabatan;
-    this.umur = umur;
-}
-
-Details.prototype.info = function () {
-    return `hai`;
-}
-
-let misbah = new Details('misbah', 'programer', 19);

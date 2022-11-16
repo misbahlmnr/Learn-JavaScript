@@ -25,7 +25,6 @@
 
 // let misbah = Mahasiswa('misbah', 10);
 
-
 // ini masih kurang efektif, kita bisa menggunakan prototype
 
 // function Mahasiswa(nama, energi) {
@@ -47,16 +46,15 @@
 
 // let misbah = new Mahasiswa('misbah', 10);
 
-
 // sebenernya ini udah efektif, dan ini merupakan yang paling efektif, tapi ini susah di baca, jadi kita bisa menggunakan / membungkus semuanya dengan class
 
 class Mahasiswa {
-    constructor(nama, umur) {
-        this.nama = nama;
-        this.umur = umur;
-    }
-    makan(porsi) {
-        this.umur += porsi;
-        return `saya sudah makan`;
-    }
+  constructor(nama, umur) {
+    this.nama = nama;
+    this.umur = umur;
+  }
+  makan(porsi) {
+    this.umur += porsi;
+    return `saya sudah makan`;
+  }
 }
