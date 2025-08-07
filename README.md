@@ -10,18 +10,22 @@ Repositori ini dibuat sebagai dokumentasi pribadi (atau publik) untuk mempelajar
 
 ---
 
-<!-- ## 📂 Struktur Folder
+## 📂 Struktur Folder
 
 ```bash
 Learn-Javascript/
-├── 01-variabel-dan-tipe-data/
-├── 02-operator/
-├── 03-kondisional/
-├── 04-perulangan/
-├── 05-fungsi/
-├── 06-array-dan-object/
-├── 07-dom-manipulation/
-├── 08-event-handling/
-├── 09-oop/
-└── 10-async-await/
-``` -->
+├── tipe-data/
+├── loops/
+├── condition/
+├── number-methods/
+├── string-methods/
+├── array-methods/
+├── object-methods/
+├── math-methods/
+├── date-methods/
+├── promise-methods/
+├── events-methods/
+├── function-types/
+├── miscellaneous/
+├── others/
+```
